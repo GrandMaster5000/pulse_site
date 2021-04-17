@@ -1,0 +1,16 @@
+.promo{
+    min-height: 650px;
+    padding: 21px 0 93px 0;
+    background: url('../../img/bg/bg1.png') center (center /cover) no-repeat;
+}
+.button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: $main-color;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    border: none;
+    text-transform: uppercase;
+}
