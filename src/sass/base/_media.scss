@@ -1,0 +1,52 @@
+@media(max-width:1200px){
+    .header{
+        &__oficial{
+            font-size: 9px;
+            span{
+                font-size: 13px;
+            }
+        }
+        &__numb{
+            font-size: 15px;
+        }
+    }
+    .promo{
+        &__title{
+            font-size: 38px;
+        }
+        &__subtitle{
+            font-size: 21px;
+        }
+    }
+}
+@media(max-width:991px){
+    .header{
+        &__logo{
+            width: 211px;
+        }
+        &__oficial{
+            display: none;
+        }
+    }
+    .promo{
+        &__title{
+            font-size: 28px;
+        }
+        &__subtitle{
+            font-size: 16px;
+        }
+        &__catalogtext{
+            a{
+                font-size: 12px;
+            }
+        }
+    }
+}
+@media(max-width:767px){
+    .advanteges{
+        &__wrapper{
+            flex-wrap: wrap-reverse;
+            align-content: space-around;
+        }
+    }
+}
