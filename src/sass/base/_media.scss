@@ -27,6 +27,9 @@
         &__oficial{
             display: none;
         }
+        &__numb{
+            margin-bottom: 0;
+        }
     }
     .promo{
         &__title{
@@ -41,6 +44,11 @@
             }
         }
     }
+    .consult{
+        .title{
+            font-size: 32px;
+        }
+    }
 }
 @media(max-width:767px){
     .advanteges{
@@ -48,5 +56,64 @@
             flex-wrap: wrap-reverse;
             align-content: space-around;
         }
+    }
+    .promo{
+        &__title{
+            text-align: center;
+        }
+        &__subtitle{
+            text-align: center;
+        }
+    }
+}
+@media(max-width:575px){
+    .header{
+        .button{
+            width: 141px;
+            height: 24px;
+        }
+        &__numb{
+            display: none;
+        }
+        &__logo{
+            display: block;
+            margin: 0 auto 14px auto;
+        }
+    }
+    .promo{
+        .button{
+            display: block;
+            margin: 0 auto;
+        }
+        &__wrapper{
+            padding-top: 42px;
+        }
+    }
+    .advanteges{
+        &__wrapper{
+            flex-direction: column;
+            justify-content: space-around;
+            align-content: center;
+            flex-wrap: nowrap;
+        }
+        &__block{
+            width: auto;
+        }
+    }
+    .consult{
+        .title{
+            font-size: 18px;
+            text-align: center;
+        }
+        .container{
+            .consult__descr{
+                text-align: center;
+                font-size: 14px;
+            }
+            .feed-form{
+                align-content: center;
+            }
+        }
+        
     }
 }
