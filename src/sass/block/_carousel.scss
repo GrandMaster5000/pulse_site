@@ -1,0 +1,48 @@
+.carousel{
+    background-color: #ffffff;
+    padding: 81px 0;
+    &__inner{
+        width: 750px;
+        position: relative;
+        margin: 0 auto;
+    }
+}
+.slick-prev , .slick-next{
+    border: none;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -66px;
+}
+.slick-next{
+    right: -66px;
+    left: auto;
+}
+.my-dots {
+    bottom: -45px;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    li{
+        display: inline-block;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+        button{
+            font-size: 0;
+            border: none;
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background-color: #000;
+            opacity: .25;
+        }
+    }
+    .slick-active{
+        button{
+            opacity: 1;
+        }
+    }
+}

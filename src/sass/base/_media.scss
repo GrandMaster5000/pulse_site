@@ -49,6 +49,16 @@
             font-size: 32px;
         }
     }
+    .container{
+        .carousel{
+            &__inner{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 @media(max-width:767px){
     .advanteges{
@@ -65,6 +75,7 @@
             text-align: center;
         }
     }
+    
 }
 @media(max-width:575px){
     .header{
