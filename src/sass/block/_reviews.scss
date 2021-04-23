@@ -1,0 +1,29 @@
+.reviews{
+    padding: 83px 0 71px 0;
+    min-height: 1030px;
+    &__wrapper{
+        margin-top: 70px;
+    }
+    hr{
+        margin: 50px 0;
+        background-color: #f6f6f6;
+    }
+    &__name{
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__marafons{
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+        margin-top: 14px;
+    }
+    &__descr{
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+        margin-top: 19px;
+    }
+}

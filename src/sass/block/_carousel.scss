@@ -5,6 +5,35 @@
         width: 750px;
         position: relative;
         margin: 0 auto;
+        .my-dots{
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            li{
+                list-style: none;
+                margin: 0 10px;
+                button{
+                    border: 1px solid #000;;
+                    font-size: 0;
+                    width: 10px;
+                    height: 10px;
+                    background-color: #000;
+                    border-radius: 50%;
+                    opacity: .7;
+                    transition: 0.2s all;
+                    &:hover{
+                        background-color: transparent;
+                        border: 1px solid #000;
+                    }
+                }
+            }
+            .slick-active{
+                button{
+                    background-color: transparent;
+                    border: 1px solid #000;
+                }
+            }
+        }
     }
 }
 .slick-prev , .slick-next{
@@ -18,31 +47,4 @@
 .slick-next{
     right: -66px;
     left: auto;
-}
-.my-dots {
-    bottom: -45px;
-    width: 100%;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    li{
-        display: inline-block;
-        margin: 0 5px;
-        padding: 0;
-        cursor: pointer;
-        button{
-            font-size: 0;
-            border: none;
-            width: 10px;
-            height: 10px;
-            border-radius: 100%;
-            background-color: #000;
-            opacity: .25;
-        }
-    }
-    .slick-active{
-        button{
-            opacity: 1;
-        }
-    }
 }
