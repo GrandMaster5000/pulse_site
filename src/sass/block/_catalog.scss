@@ -121,18 +121,10 @@
         }
     }
     &__list{
-        width: 50%;
-        margin-left: 20px;
-        transform: translateX(0%);
-        transition: 0.5s all;
         padding: 3px 22px 0 19px;
         margin-bottom: 0;
         list-style-type: none;
         position: relative;
-        &_active{
-            transform: translateX(-100%);
-            margin-left: 0;
-        }
         li{
             font-size: 14px;
             font-weight: 300;
@@ -156,6 +148,15 @@
         bottom: 0;
         left: 50%;
         transform: translateX(calc(-50% - 19px));
+    }
+    &__listwrap{
+        width: 50%;
+        transform: translateX(0%);
+        transition: 0.5s all;
+        &_active{
+            transform: translateX(-100%);
+            margin-left: 0;
+        }
     }
     
 }

@@ -13,6 +13,15 @@
     &__icon{
         display: block;
         margin: 0 auto;
+        &_anim{
+            animation-name: hertbeat;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover{
+                animation-play-state: paused;
+            }
+        }
     }
     &__title{
         color: #0d0d0d;

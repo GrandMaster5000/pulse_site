@@ -190,4 +190,21 @@
             }
         }
     }
+    .overlay{
+        .modal{
+            &__close{
+                right: 0;
+                top: -30px;
+            }
+        }
+    }
+}
+@media(max-width:320px){
+    .overlay{
+        .modal{
+            &__close{
+                right: 30px;
+            }
+        }
+    }
 }

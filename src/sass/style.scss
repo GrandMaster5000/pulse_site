@@ -1,4 +1,11 @@
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/iconfonts';
+@import 'libs/slick';
+
 @import 'base/variables';
+@import 'base/animation';
 * {
     font-family: 'Museo Sans' , sans-serif;
 }
@@ -15,3 +22,4 @@
 @import 'block/reviews';
 @import 'block/_footer';
 @import 'block/_modal';
+@import 'block/pageup';
