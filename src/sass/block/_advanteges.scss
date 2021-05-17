@@ -11,8 +11,8 @@
         width: 243px;
     }
     &__icon{
-        display: block;
-        margin: 0 auto;
+        display: flex;
+        justify-content: center;
         &_anim{
             animation-name: hertbeat;
             animation-duration: 2s;
